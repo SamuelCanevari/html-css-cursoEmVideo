@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:#5C5C5C;
+            margin: 0;
+        }
+        header {
+            background-color: white;
+            padding: 30px;
+            margin: 10px;
+            text-align: center;
+        }
+        header > h1 {
+            color: #0D0D0D;
+            text-transform: uppercase;
+        }
+        nav {
+            background-color: #5C5C5C;
+            padding: 10px;
+            box-shadow: -9px -5px 9px rgba(0, 0, 0, 0.253);
+
+        }
+        nav a {
+            text-transform: uppercase;
+            text-decoration: none;
+            color: white;
+            margin: 50px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius:30px 5px;
+        }
+        main > section {
+            padding: 5px 0 0 0;
+            background-color: #E8E8E8;
+            margin: 5px;
+            text-align: justify;
+        }
+        main > section h2, p {
+            margin: 20px;
+            
+        }
+        main > section > article > aside {
+            background-color: #DBDBDB;
+            text-align: right;  
+        }
+        footer {
+            background-color: #0d0d0dce;
+            color: #E8E8E8;
+            text-align: center;
+            padding: 6px;
+            margin: 0%;
+        }
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nome do Site de Exemplo</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        Esportes
+        <section id="assuntos"> 
+            <article>
+                <h2>Título do artigo 1</h2>
+                <p>Paragrafo artigo Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo deleniti, assumenda, ad commodi adipisci aspernatur similique esse sed possimus nulla eos ut consequuntur! Maxime harum eos magni! Soluta, iusto distinctio. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus amet qui modi velit porro sequi delectus a hic ab. Blanditiis nemo aperiam similique expedita architecto incidunt ipsa qui vel accusamus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti quaerat culpa libero aperiam perspiciatis beatae. Labore, repudiandae quia! Accusantium distinctio quas voluptates odit optio voluptatem saepe. Amet sint voluptates eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eveniet nam accusamus amet ut vero facilis fugit doloremque cum odit quasi a eligendi iure aliquam illum id, tempore iste eos?</p>
+                <aside>
+                    <p>Artigo escrito por Samuel Canevari</p>
+                </aside>
+            </article>
+        </section>
+        Tecnologia
+        <section id="noticias"> 
+            <article>
+                <h2>Título do artigo 2</h2>
+                <p>Paragrafo artigo Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo deleniti, assumenda, ad commodi adipisci aspernatur similique esse sed possimus nulla eos ut consequuntur! Maxime harum eos magni! Soluta, iusto distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quas laudantium cupiditate voluptatem adipisci, inventore ab, suscipit incidunt amet quia maiores eius maxime cum rerum earum. Quia ut sapiente ullam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi necessitatibus iste dolor nemo magni, odit odio consectetur repellat repudiandae nostrum nisi soluta pariatur debitis vel, adipisci eum porro sunt distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia animi expedita nostrum culpa aut error, ea repellat quis quisquam? Itaque libero aut est neque fugit maxime consectetur debitis. Qui, tempora! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempore laborum blanditiis tempora expedita voluptate animi iusto nemo asperiores ut autem magni recusandae dicta similique exercitationem eligendi qui, sequi suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum minus voluptas minima sequi sint. Consequatur, facilis illo? Et quos sed aut laboriosam eius veniam soluta impedit alias animi, vel obcaecati! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum ipsum facere nisi accusantium eligendi dolor magnam neque illo magni laborum deserunt, autem vitae doloremque est repellendus consectetur in fugit qui! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum modi laudantium accusantium praesentium, corrupti enim? Eos corrupti, reprehenderit molestias placeat consectetur ea similique sed doloremque, corporis eius esse! Quas, atque.</p>
+                <aside>
+                    <p>Artigo escrito por Samuel Canevari</p>
+                </aside>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por CursoemVideo</p>
+
+    </footer>
+    
+</body>
+</html>
